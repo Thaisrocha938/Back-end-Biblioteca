@@ -1,0 +1,154 @@
+
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+.h1-titulo {
+    font-size: 70px;
+}
+
+a.btn.btn-success {
+    padding-top: 0;
+}
+
+.imagens-carrossel {
+    width: 600px;
+    height: 550px;
+    text-align: center;
+}
+
+.imagens-card {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.carrossel {
+    margin: 10px;
+}
+.card{
+    margin: 5px;
+}
+
+.separador {
+    width: auto;
+    height: 80;
+    background-image: url('../images/background.png');
+    background-size: contain;
+    
+}
+.navCadastro{
+    width: 100%;
+    text-align: right;
+    list-style: none;
+  
+}
+.cadastro{
+   text-decoration: none;
+   color: gainsboro;
+}
+.cadastro:hover{
+    text-decoration: underline;
+    color: gainsboro;
+ }
+.rodape {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.rodape p{
+    margin: 0;
+}
+
+div.card div.body{
+    padding: 10px;
+}
+
+#card-formulario {
+    margin: 40px;
+    background: none;
+    border: none;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+    color: black;
+}
+
+.form-signin .form-control{
+    margin: 10px 0px;
+}
+
+div.form-signin input{
+    margin: 5px;
+}
+
+video {
+    position: absolute;
+    display: block;
+    width: 100%;
+    min-width: 980px;
+}
+
+.form-login{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: rgba(71, 71, 71, 0.4);
+    margin-top: 10%;
+    animation: opacity 2s forwards;
+}
+
+@media (max-width: 600px){
+    .h1-titulo{
+        font-size: 30px;
+    }
+    .imagens-carrossel {
+        width: 300px;
+        height: 250px;
+        text-align: center;
+    }
+    .container .card{
+        width: 200px;
+    }
+}
+
+/* Dispositivos médios (tablets, 768px pra cima) */
+@media (max-width: 768px){
+
+}
+
+/* Dispositivos Largos (Computadores, 992px pra cima) */
+@media (max-width: 992px){
+
+}
+
+ /* Dispositivos Extra Largos (Computadores Largos, 1200px pra cima) */
+@media (max-width: 1200px){
+
+}
+
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes slide {
+    0%{
+        width: 1%;
+        height: 100%;
+    }
+    100%{
+        width: 50%;
+        height: 100%;
+    }
+}
