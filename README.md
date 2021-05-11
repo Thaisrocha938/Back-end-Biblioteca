@@ -1,6 +1,6 @@
 # Lanchonete Ideal
 
--Nessa primeira versão contém somente cadatro e login de usuário.
+-Nessa primeira versão contém somente cadastro e login de usuário.
 
 -Esse projeto visa facilitar o sistema de pedidos da lanchonete.
 
