@@ -1,9 +1,10 @@
-# Nessa primeira versão contém somente cadatro e login de usuário
-
 # Lanchonete Ideal
-## Esse projeto visa facilitar o sistema de pedidos da lanchonete
+
+-Nessa primeira versão contém somente cadatro e login de usuário.
+
+-Esse projeto visa facilitar o sistema de pedidos da lanchonete.
 
 # Passos para usar o projeto 
-## As funcionalidades estão ligadas com a api: https://github.com/Thaisrocha938/Back-end-Lanchonete
-### baixar projeto front
-### Executar o "index.js" no navegador
+> As funcionalidades estão ligadas com a [API](https://github.com/Thaisrocha938/Back-end-Lanchonete)
+1. Baixar projeto front
+2. Executar o "index.js" no navegador
