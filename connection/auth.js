@@ -8,7 +8,7 @@ function auth(){
         const email = inputEmail.value
         const password = inputPassword.value
 
-        await axios.post('http://localhost:3333/users', {
+        await axios.post('http://localhost:3333/auth', {
             email,
             password
         })        
