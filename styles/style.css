@@ -7,6 +7,8 @@ body {
     font-size: 70px;
 }
 
+
+
 a.btn.btn-success {
     padding-top: 0;
 }
@@ -46,6 +48,7 @@ a.btn.btn-success {
 .cadastro{
    text-decoration: none;
    color: gainsboro;
+
 }
 .cadastro:hover{
     text-decoration: underline;
@@ -69,6 +72,7 @@ div.card div.body{
     margin: 40px;
     background: none;
     border: none;
+    padding: 5px;
 }
 
 .form-signin {
@@ -82,6 +86,10 @@ div.card div.body{
 
 .form-signin .form-control{
     margin: 10px 0px;
+}
+
+.form-btn{
+    margin-top: 5px;
 }
 
 div.form-signin input{
@@ -102,6 +110,14 @@ video {
     background: rgba(71, 71, 71, 0.4);
     margin-top: 10%;
     animation: opacity 2s forwards;
+}
+
+.row {
+    animation: opacity 2s forwards;
+}
+
+div.card.col-sm{
+    min-width: 148px;
 }
 
 @media (max-width: 600px){
@@ -130,7 +146,7 @@ video {
 
  /* Dispositivos Extra Largos (Computadores Largos, 1200px pra cima) */
 @media (max-width: 1200px){
-
+    
 }
 
 @keyframes opacity {
