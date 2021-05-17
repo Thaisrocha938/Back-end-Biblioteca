@@ -1,6 +1,6 @@
 
 function listarProduto(){
-
+    
             axios.get('http://localhost:3333/produto')
 	        .then(resposta => {
                 console.log(resposta.data)
@@ -13,11 +13,15 @@ function listarProduto(){
                                 <h5 class="card-title">${element.nome}</h5>
                                 <p class="card-text">${element.descricao}</p>
                                 <h3 class="card-title">R$${element.preco}</h3>
-                                <a href="#" class="btn btn-success"><img src="./images/cart-plus.svg" alt="carrinho" width="16" height="16" /></a>
+                                <a href="#carrinho" class="btn btn-success"><img src="./images/cart-plus.svg" alt="add carrinho" width="16" height="16" /></a>
+                     
                             </div>
                     </div>`;
+                    return resposta.data;
                 });
+                event.preventDefault()
             })
 	        .catch(erro => console.error(erro));
 }
 listarProduto();
+//           <a href="#" class="btn btn-primary" id="editar"><img src="https://img.icons8.com/pastel-glyph/64/000000/edit--v2.png" width="16" height="16"/></a>

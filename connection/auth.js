@@ -4,14 +4,22 @@ function auth(){
     const inputPassword = document.getElementById('password');
 
     formLogin.onsubmit= async ()=>{
-
+        event.preventDefault()
         const email = inputEmail.value
         const password = inputPassword.value
 
-        await axios.post('http://localhost:3333/auth', {
+       try{ 
+           const resposta = await axios.post('http://localhost:3333/auth', {
             email,
             password
-        })        
+            });
+            console.log(resposta)
+            if(resposta.data.token){
+                
+            }    
+        } catch (erro){
+            
+        }  
     }
 
 }
