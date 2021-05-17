@@ -8,8 +8,8 @@ function cadastrarUser(){
     const inputSexo = document.getElementById('sexo');
 
 
-    formCadastro.onsubmit= async (evento)=>{
-        evento.preventDefault()
+    formCadastro.onsubmit= async ()=>{
+        event.preventDefault()
         const name = inputNome.value
         const cpf = inputCpf.value
         const email = inputEmail.value

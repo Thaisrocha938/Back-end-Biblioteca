@@ -6,8 +6,8 @@ function cadastrarUser(){
     const inputDescricao = document.getElementById('descricao');
 
 
-    formCadastro.onsubmit= async (evento)=>{
-        evento.preventDefault()
+    formCadastro.onsubmit= async ()=>{
+        event.preventDefault()
         const nome = inputNome.value
         const preco = parseFloat(inputPreco.value)
         const descricao = inputDescricao.value
